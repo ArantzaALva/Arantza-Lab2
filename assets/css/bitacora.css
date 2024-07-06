@@ -1,11 +1,10 @@
 .sesiones {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
     gap: 20px;
-    max-width: 1300px;
-    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
 }
 .sesiones img {
     width: 100%;
